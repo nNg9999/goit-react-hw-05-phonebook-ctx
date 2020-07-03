@@ -1,0 +1,32 @@
+.contactList {
+  display: flex;
+  flex: 0 0 300px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+  li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 0 0 250px;
+    margin-bottom: 10px;
+
+    .button {
+      font-size: 10px;
+      width: 50px;
+      height: 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      border: none;
+      box-sizing: border-box;
+
+
+      &:hover,
+      &:focus {
+        background-color: rgb(0, 123, 255);
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.filter {
+  .input {
+    display: block;
+    margin-bottom: 10px;
+    height: 20px;
+    box-sizing: border-box;
+    outline: 0;
+    border-radius: 2px;
+    border: 1px solid #ced4da;
+
+    &:hover {
+      border: 1px solid rgb(28, 211, 221);
+      border-color: #80bdff;
+      box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, .25);
+    }
+  }
+}
