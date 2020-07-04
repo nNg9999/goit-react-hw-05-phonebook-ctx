@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 
 // context
-import withThemeContext from "../../components/hoc/withThemeContext";
+import withThemeContext from '../../hoc/withThemeContext';
 
 // styles
 import "./ThemeToggler.scss";
@@ -20,7 +20,6 @@ class ThemeToggler extends Component {
 
   render() {
     const { isChecked, toggleTheme } = this.props.theme;
-
 
     return (
 

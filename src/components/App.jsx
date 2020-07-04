@@ -53,7 +53,7 @@ class App extends Component {
     }
   }
 
-  AddContacts = (name, number) => {
+  addContacts = (name, number) => {
     const { contacts } = this.state
     const newContact = { name, number, id: uuidv4(), }
 
@@ -88,7 +88,7 @@ class App extends Component {
         <Layout>
           <ThemeToggler />
           <Section title={"Phonebook"}>
-            <ContactForm onAddContact={this.AddContacts} />
+            <ContactForm onAddContact={this.addContacts} />
           </Section>
           <Section title={"Contacts"}>
             {contacts.length > 1 && <Filter value={filter} onChangeFilter={this.changeFilter} />}

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 // context
-import withThemeContext from "../../components/hoc/withThemeContext";
+import withThemeContext from '../../hoc/withThemeContext';
 
 // styles
 import styles from "./Layout.module.scss";

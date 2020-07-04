@@ -1,5 +1,6 @@
 import React from 'react';
-import ThemeContext from '../../context/ThemeContex.js'
+import ThemeContext from '../context/ThemeContex';
+
 
 // Эта функция принимает компонент...
 const withThemeContext = WrappedComponent => {
